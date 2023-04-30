@@ -10,6 +10,6 @@ esses elementos clonados são armazenados numa variável chamada pizzaItem que e
 
 inserimos o atributo "data-key" em cada clone, utilizando a func "setAttribute("data-key", index)"
 
-a partir destes clones (que representam o nosso pizzaJSON no arquivo pizzas.js), inputamos os valores que temos no pizzas.js em nossas tags HTML que estão ligadas a ca pizzaItem.
+a partir destes clones (que representam o nosso pizzaJSON no arquivo pizzas.js), inputamos os valores que temos no pizzas.js em nossas tags HTML que estão ligadas a pizzaItem.
 
 logo após utilizamos um "document.querySelector(".pizza-area").append(pizzaItem)" para assim mostrar na área designada todos os nossos "pizzaItem", cada um com seu determinado valor.
